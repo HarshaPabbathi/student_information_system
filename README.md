@@ -1,5 +1,3 @@
-# student_information_system
-
 Student Information System (SIS)
 Overview
 This is a Django-based Student Information System (SIS) designed to manage student-related data, including student profiles, courses, enrollments, instructors, assignments, and attendance. The application uses Django's ORM to interact with a MySQL database, with models explicitly mapped to corresponding database tables.
@@ -101,3 +99,7 @@ Write tests: Add unit tests in tests.py to ensure the reliability of the applica
 Add relationships: Update models to include foreign key relationships (e.g., ForeignKey for student_id and course_id in Enrollment) for better data integrity.
 Enhance security: Configure proper user authentication and authorization.
 
+Contributing
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request with your changes.
+License
+This project is licensed under the MIT License.
