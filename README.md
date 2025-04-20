@@ -71,24 +71,20 @@ All models (Student, Course, etc.) are registered and can be managed here.
 ## **Database Schema**
 The models are mapped to the following MySQL tables (as specified in the Meta classes):
 
-students: Student data
-courses: Course data
-enrollments: Enrollment records
-instructors: Instructor data
-assignments: Assignment details
-attendance: Attendance records
+**students:** Student data
+**courses:** Course data
+**enrollments:** Enrollment records
+**instructors:** Instructor data
+**assignments:** Assignment details
+**attendance:** Attendance records
 
 Each model uses AutoField for primary keys to align with MySQL's auto-incrementing IDs.
 
 ## **Next Steps**
 
 **Implement views:** Add logic in views.py to handle HTTP requests and render templates for user interaction.
-
 **Create templates:** Design HTML templates for the front-end interface.
-
 **Write tests:** Add unit tests in tests.py to ensure the reliability of the application.
-
 **Add relationships:** Update models to include foreign key relationships (e.g., ForeignKey for student_id and course_id in Enrollment) for better data integrity.
-
 **Enhance security:** Configure proper user authentication and authorization.
 
