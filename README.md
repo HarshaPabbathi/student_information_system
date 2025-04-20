@@ -28,45 +28,50 @@ The project includes the following key files in the student_management Django ap
 ### **Installation**
 
 1. **Clone the repository:**
-
+   
         - **git clone <repository-url>**
         - **cd sis**
    
-2. **Set up a virtual environment:**
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+2.  **Set up a virtual environment:**
+
+        - **python -m venv venv**
+        - **source venv/bin/activate  # On Windows: venv\Scripts\activate**
 
 3. **Install dependencies:**
-pip install django mysqlclient
+
+        - **pip install django mysqlclient**
 
 4. **Configure the database:**
 
-Update the DATABASES setting in sis/settings.py to match your MySQL database configuration:DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'your_database_user',
-        'PASSWORD': 'your_database_password',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+        - **Update the DATABASES setting in sis/settings.py to match your MySQL database configuration:DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.mysql',
+                'NAME': 'your_database_name',
+                'USER': 'your_database_user',
+                'PASSWORD': 'your_database_password',
+                'HOST': 'localhost',
+                'PORT': '3306',
+            }
+        }**
 
 5. **Run migrations:**
-    python manage.py makemigrations
-    python manage.py migrate
 
-6. **Create a superuser (for admin access):**
-    python manage.py createsuperuser
+        - **python manage.py makemigrations**
+        - **python manage.py migrate**
+
+6.**Create a superuser (for admin access):**
+
+       - **python manage.py createsuperuser**
 
 7. **Run the development server:**
-    python manage.py runserver
-   The application will be available at http://127.0.0.1:8000.
+    
+        - **python manage.py runserver**
+        - **The application will be available at http://127.0.0.1:8000.**
 
 8. **Access the admin interface:**
-
-Navigate to http://127.0.0.1:8000/admin and log in with the superuser credentials.
-All models (Student, Course, etc.) are registered and can be managed here.
+   
+        - **Navigate to http://127.0.0.1:8000/admin and log in with the superuser credentials.**
+        - **All models (Student, Course, etc.) are registered and can be managed here.**
 
 
 ## **Database Schema**
