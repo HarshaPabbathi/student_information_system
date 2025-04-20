@@ -83,8 +83,12 @@ Each model uses AutoField for primary keys to align with MySQL's auto-incrementi
 ## **Next Steps**
 
 **Implement views:** Add logic in views.py to handle HTTP requests and render templates for user interaction.
-Create templates: Design HTML templates for the front-end interface.
-Write tests: Add unit tests in tests.py to ensure the reliability of the application.
-Add relationships: Update models to include foreign key relationships (e.g., ForeignKey for student_id and course_id in Enrollment) for better data integrity.
-Enhance security: Configure proper user authentication and authorization.
+
+**Create templates:** Design HTML templates for the front-end interface.
+
+**Write tests:** Add unit tests in tests.py to ensure the reliability of the application.
+
+**Add relationships:** Update models to include foreign key relationships (e.g., ForeignKey for student_id and course_id in Enrollment) for better data integrity.
+
+**Enhance security:** Configure proper user authentication and authorization.
 
