@@ -28,9 +28,9 @@ The project includes the following key files in the student_management Django ap
 ### **Installation**
 
 1. **Clone the repository:**
-   
-        - **git clone <repository-url>**
-        - **cd sis**
+
+        git clone <repository-url>
+        cd sis
    
 2.  **Set up a virtual environment:**
 
